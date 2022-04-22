@@ -1,6 +1,5 @@
 FROM centos
 
-RUN yum -y install vim
-RUN mkdir /var/www
+RUN yum -y install vim && mkdir /var/www
 
 
